@@ -1,4 +1,4 @@
-# Sudoku Solver
+# QuickSolve Sudoku
 
 Ever solved a sudoku puzzle. It's tricky right? Don't worry! With this app you can get any valid sudoku puzzle solved within seconds. Just enter the sudoku config and hit submit.
 
