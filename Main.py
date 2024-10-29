@@ -1,4 +1,4 @@
-class SudokuSolver:
+class QuickSolve-Sudoku:
 
     def __init__(self, query_string, rows = 'ABCDEFGHI', columns = '123456789'):
         """
