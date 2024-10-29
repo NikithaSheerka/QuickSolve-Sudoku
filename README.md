@@ -1,12 +1,11 @@
-# QuickSolve Sudoku
+Sudoku Solver App
+Ever been stumped by a challenging sudoku puzzle? This app is here to help! With a quick and intuitive interface, you can solve any valid sudoku puzzle in seconds. Just enter your puzzle configuration and hit submit to see it solved.
 
-Ever solved a sudoku puzzle. It's tricky right? Don't worry! With this app you can get any valid sudoku puzzle solved within seconds. Just enter the sudoku config and hit submit.
+Live Preview
 
-**Live Preview** : https://sudoku-solving-application.herokuapp.com/
-
-## Project Structure
-
-```bash
+Project Structure
+arduino
+Copy code
 ├── static
 │   ├── script.js
 │   ├── styles.css
@@ -16,44 +15,38 @@ Ever solved a sudoku puzzle. It's tricky right? Don't worry! With this app you c
 ├── server.py
 ├── .gitignore
 ├── README.md
-```
+Technologies Used
+Python (Flask, Gunicorn)
+HTML, CSS, JavaScript
+Running the App Locally
+To get this app running on your local machine, ensure you have Python installed. Then, set up a virtual environment and install the necessary packages.
 
-## Technologies used
+Requirements
+The app relies on the following Python modules, specified in requirements.txt:
 
-[<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />](#)
-[<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png" />](#)
-[<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />](#)
-[<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />](#)
-[<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />](#) <br/>
+click==7.1.2
+Flask==1.1.2
+gunicorn==20.1.0
+itsdangerous==1.1.0
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+Werkzeug==1.0.1
+Setup
+Clone the repository and navigate to the project directory.
 
-## Running the app locally
+Install the required modules using:
 
-You will require the following python modules if you wish to run this app
-
-- click==7.1.2
-- Flask==1.1.2
-- gunicorn==20.1.0
-- itsdangerous==1.1.0
-- Jinja2==2.11.3
-- MarkupSafe==1.1.1
-- Werkzeug==1.0.1
-
-To run the app, set uo a virtual environment, and install the modules mentioned in the requirements.txt using the following command:-
-
-```
+bash
+Copy code
 pip install -r requirements.txt
-```
+Start the app:
 
-Once the modules are installed, simply run the command for windows :-
-
-```
+On Windows:
+bash
+Copy code
 python server.py
-```
-
-For mac and linux run the following command :-
-
-```
+On macOS and Linux:
+bash
+Copy code
 python3 server.py
-```
-
-Once the server is up-and-running, go to your browser, and visit http://localhost:3000 to use the app.
+Open your browser and go to http://localhost:3000 to use the app.
